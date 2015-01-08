@@ -180,8 +180,9 @@ ul.compact li a {
 
 /* @group Header */
 #header, #header a { color: silver; }
-#header .hover { color: transparent; }
-#header:hover a { color: black; text-shadow: #aaa 2px 2px 3px;}
+/*#header .hover { color: transparent; }*/
+#header ul:hover a { color: black; text-shadow: #aaa 2px 2px 3px;}
+#header a:hover { color: black; text-shadow: #aaa 2px 2px 3px;}
 #header:hover a:hover { text-decoration: none; }
 #header a:hover .hover { color: silver; }
 #header {
@@ -207,7 +208,7 @@ ul.compact li a {
   line-height: 1.6em;
   display: block;
   margin: 0;
-  width: 50%;
+  /*width: 50%;*/
   min-width: 180px;
   text-align: right;
 }
