@@ -208,6 +208,7 @@ ul.compact li a {
   display: block;
   margin: 0;
   width: 50%;
+  min-width: 180px;
   text-align: right;
 }
 #header ul li { display: inline; }
